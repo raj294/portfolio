@@ -207,8 +207,8 @@ img {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 3s steps(44) 1s 1 normal both,
-              blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 2s steps(40) 1s 1 normal both,
+              blinkTextCursor 350ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
