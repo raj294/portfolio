@@ -214,7 +214,7 @@ img {
   to{width: 10em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(0, 0, 0, 0.75);}
+  from{border-right-color: var(--text-color);}
   to{border-right-color: transparent;}
 }
 
@@ -669,12 +669,16 @@ img {
     transform: translate(6px, -7px);
 }
 
-.qualification [data-content] {
+.qualification [data-content]{
     display: none;
 }
 
-.qualification__active[data-content] {
+.qualification__active[data-content]{
     display: block;
+}
+
+.qualification__button.qualification__active{
+    color: var(--first-color);
 }
 
 /* SERVICES */
@@ -1027,10 +1031,25 @@ a.servicelink{
 /* MEDIA QUERIES */
 /* For small devices */
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 450px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
+    }
+
+    .line-1{
+        margin-top: 20px;
+        margin-bottom: 1rem;
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .home__subtitle{
+        margin-bottom: 34px;
+    }
+
+    .about{
+        margin-top: 5rem;
     }
 
     .nav__menu{
@@ -1060,7 +1079,7 @@ a.servicelink{
         padding-right: 3.5rem;
     }
     .services__modal{
-        padding: 0.5rem;
+        padding: 1rem;
     }
 }
 
@@ -1076,6 +1095,10 @@ a.servicelink{
 
     .home__button{
         align-items: center;
+    }
+
+    .line-1{
+        font-weight: 500;
     }
     
     .about__container,
