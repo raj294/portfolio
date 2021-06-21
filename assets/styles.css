@@ -567,6 +567,10 @@ img {
 }
 
 .skills__react {
+    width: 75%;
+}
+
+.skills__git {
     width: 80%;
 }
 
@@ -729,7 +733,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(0,0,0,.15);
+    background-color:rgba(0, 0, 0, 0.726);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1042,6 +1046,7 @@ a.servicelink{
         margin-bottom: 1rem;
         font-size: 28px;
         font-weight: 500;
+        width: auto;
     }
 
     .home__subtitle{
@@ -1076,7 +1081,7 @@ a.servicelink{
         justify-content: center;
     }
     .services__content{
-        padding-right: 3.5rem;
+        padding-right: 5rem;
     }
     .services__modal{
         padding: 1rem;
