@@ -1044,7 +1044,7 @@ a.servicelink{
     .line-1{
         margin-top: 20px;
         margin-bottom: 1rem;
-        font-size: 23px;
+        font-size: 25px;
         font-weight: 500;
         margin-right: auto;
     }
@@ -1055,7 +1055,7 @@ a.servicelink{
       }
       @keyframes typewriter{
         from{width: 0;}
-        to{width: 12em;}
+        to{width: 11em;}
       }
 
     .home__subtitle{
