@@ -192,7 +192,7 @@ img {
 .line-1{
     position: relative;
     top: 50%;  
-    /* width: 24em; */
+    width: 24rem;
     font-family: 'Source Code Pro', monospace;
     margin: auto;
     margin-bottom: -30px;
@@ -1044,10 +1044,19 @@ a.servicelink{
     .line-1{
         margin-top: 20px;
         margin-bottom: 1rem;
-        font-size: 28px;
+        font-size: 23px;
         font-weight: 500;
-        width: auto;
+        margin-right: auto;
     }
+
+    .anim-typewriter{
+        animation: typewriter 2s steps(44) 1s 1 normal both,
+                    blinkTextCursor 350ms steps(44) infinite normal;
+      }
+      @keyframes typewriter{
+        from{width: 0;}
+        to{width: 12em;}
+      }
 
     .home__subtitle{
         margin-bottom: 34px;
