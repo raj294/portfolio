@@ -21,8 +21,8 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
-                        <li class="nav__item ">
-                            <a href="#" class="nav__link active-link">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i>Home
                             </a>
                         </li>
@@ -134,7 +134,7 @@
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="" class="button button--flex">
+                            <a download="" href="./assets/cv/Raj's Resume.pdf" class="button button--flex">
                                Curriculum Vitae <i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -492,54 +492,52 @@
                 <h2 class="section__title">Projects</h2>
                 <span class="section__subtitle">< Stuff I've Worked On /></span>
 
-                <div class="container">
-                    <div class="serviceBox">
-                        <div class="service-icon">
-                            <a href="#" class="servicelink">
-                                <i class="uil uil-github"></i>
-                            </a>
-                            <br>
-                            <a href="#" class="servicelink">
-                                <i class="uil uil-location-arrow"></i>
-                            </a>
-                        </div>
-                        <h3 class="title">E-Clothing</h3>
-                        <p class="description">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium tempora vero aperiam reprehenderit labore illo laborum delectus nemo, dolorum aut expedita fuga! Possimus, magni saepe non unde suscipit harum eum.
-                        </p>
-                    </div>
-                
-                    <div class="serviceBox">
-                        <div class="service-icon">
-                            <a href="#" class="servicelink">
-                                <i class="uil uil-github"></i>
-                            </a>
-                            <br>
-                            <a href="#" class="servicelink">
-                                <i class="uil uil-location-arrow"></i>
-                            </a>
-                        </div>
-                        <h3 class="title">Messaging App</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quod ipsam, doloribus labore quae voluptatum tenetur quasi, quis at, officia rem similique. Ipsum quibusdam, mollitia iure quas quidem ratione natus?
-                        </p>
-                    </div>
-                
-                    <div class="serviceBox">
-                        <div class="service-icon">
-                            <a href="#" class="servicelink" target="_blank">
-                                <i class="uil uil-github"></i>
-                            </a>
-                            <br>
-                            <a href="#" class="servicelink">
-                                <i class="uil uil-location-arrow"></i>
-                            </a>
-                        </div>
-                        <h3 class="title">Travllr</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque laboriosam sapiente earum? Enim ab suscipit soluta quisquam tenetur eos consequatur laudantium porro nulla nemo! Blanditiis sint voluptatem odio nemo.
-                        </p>
-                    </div>
+                <div class="project">
+                    <figure class="cards">
+                        <img src="./assets/img/e-clothing.png" alt="e-clothing" />
+                        <div class="date"><i class="uil uil-github"></i></div>
+                        <figcaption>
+                        <h3>E-Clothing</h3>
+                        <p>An E-Commerce React app for buying clothes</p>
+                        </figcaption>
+                        <div class="hover"><ion-icon name="open"></ion-icon></div>
+                        <a href="https://github.com/raj294/E-clothing" target="_blank"></a>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/img/gadgets-zone.jpg" alt="gadgets-zone" />
+                        <div class="date"><ion-icon name="globe"></ion-icon></div>
+                        <figcaption>
+                        <h3>The Gadgets Zone</h3>
+                        <p>An E-commerce website for tech products.</p>
+                        </figcaption>
+                        <div class="hover"><ion-icon name="open"></ion-icon></div>
+                        <a href="https://gadgets-zone.netlify.app/" target="_blank"></a>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/img/travllr.jpg" alt="travllr" />
+                        <div class="date"><ion-icon name="globe"></ion-icon></div>
+                        <figcaption>
+                        <h3>Travllr</h3>
+                        <p>A well-optimize landing page for booking beach places.</p>
+                        </figcaption>
+                        <div class="hover"><ion-icon name="open"></ion-icon></div>
+                        <a href="https://travllr.netlify.app/" target="_blank"></a>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/img/utm.jpg" alt="utm" />
+                        <div class="date"><ion-icon name="globe"></ion-icon></div>
+                        <figcaption>
+                        <h3>Urban Tree Management</h3>
+                        <p>The urban tree management is a website which provides planting trees to nearby locations.</p>
+                        </figcaption>
+                        <div class="hover"><ion-icon name="open"></ion-icon></div>
+                        <a href="https://raj294.github.io/urban-treemanagement/" target="_blank"></a>
+                    </figure>
+
+                    
                 </div>
                 
             </section>
@@ -651,6 +649,8 @@
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
 
+        <!-- Ionicons script -->
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
         <!-- Main JS -->
         <script src="./assets/js/main.js"></script>
