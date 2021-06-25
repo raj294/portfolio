@@ -1124,10 +1124,16 @@ img {
         justify-content: center;
     }
     .services__content{
-        padding-right: 5rem;
+        padding-right: 7rem;
     }
     .services__modal{
         padding: 1rem;
+    }
+
+    .project{
+        justify-content: center;
+        align-items: center;
+        padding-right: 43px;
     }
 }
 
@@ -1160,6 +1166,10 @@ img {
         display: grid;
         grid-template-columns: .6fr;
         justify-content: center;
+    }
+
+    .project{
+        padding-right: 30px;
     }
 }
 
